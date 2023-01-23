@@ -1,0 +1,64 @@
+.circulo{
+    margin-top: 20px;
+    border-radius: 50%;
+    border:5px solid #666;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#formacionC{
+    float: left;
+    border: 3px solid rgb(224, 222, 210);
+    background: rgba(224, 222, 210, .6);
+}
+#formacionE{
+    float: left;
+    margin-bottom: 20px;
+}
+#formacionA{
+    border: 3px solid  rgb(224, 222, 210) ;
+    background: rgba(224, 222, 210, .6);
+}
+#experiencia{
+    border: 3px solid  rgb(224, 222, 210);
+    background: rgba(224, 222, 210, .6);
+}
+#objetivo{
+    float: left;
+    border: 3px solid  rgb(224, 222, 210);
+    background: rgba(224, 222, 210, .6);
+}
+#contacto{
+    float: right;
+    border: 3px solid  rgb(224, 222, 210);
+    background: rgba(224, 222, 210, .6);
+}
+html{
+    border: 35px solid grey;
+    padding: 77px;
+}
+.oculto{
+    display: none;
+}
+
+.vinculos {
+    position: absolute;
+    top: 38px;
+    left: 35px;
+    z-index: 99;
+}
+.vinculos ul {
+    margin: 0;
+    padding-left: 0;
+}
+.vinculos ul li {
+    margin-left: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+@media screen and (max-width: 767px) {.vinculos {left: 165px;}}
+#in{
+    max-width: 32px;
+    max-height: 32px;
+}
